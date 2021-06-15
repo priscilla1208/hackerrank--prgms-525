@@ -1,0 +1,18 @@
+a = input()
+countries = set()
+for i in xrange(a):
+    countries.add(raw_input())
+print len(countries)
+""
+Input (stdin)
+7
+UK
+China
+USA
+France
+New Zealand
+UK
+France
+""
+Expected Output
+5
